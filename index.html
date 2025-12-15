@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angry Beard Games</title>
+    <meta name="description" content="Angry Beard Games — thoughtful, player-respecting games." />
+    <style>
+      :root { color-scheme: light; }
+      body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; }
+      main { max-width: 720px; margin: 0 auto; padding: 56px 20px; }
+      h1 { font-size: 2.1rem; margin: 0 0 6px; letter-spacing: 0.5px; }
+      .sub { margin: 0 0 28px; opacity: 0.75; }
+      p { margin: 0 0 14px; }
+      hr { border: 0; border-top: 1px solid rgba(0,0,0,0.12); margin: 28px 0; }
+      details { margin-top: 6px; }
+      summary { cursor: pointer; font-weight: 600; }
+      footer { margin-top: 38px; font-size: 0.95rem; opacity: 0.75; }
+      a { color: inherit; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>ANGRY BEARD GAMES</h1>
+        <p class="sub">Independent Game Studio</p>
+      </header>
+
+      <section aria-label="Studio statement">
+        <p>
+          Angry Beard Games is a small independent studio focused on thoughtful, player-respecting games that value clarity,
+          curiosity, and intention.
+        </p>
+        <p>
+          Our first project, <em>Fork &amp; Folly</em>, is currently in development.
+        </p>
+        <p>
+          More to come — when it’s ready.
+        </p>
+      </section>
+
+      <hr />
+
+      <section aria-label="Design philosophy">
+        <details>
+          <summary>Design Philosophy</summary>
+          <p>The principles that quietly guide how we build games.</p>
+
+          <p><strong>1. Respect the Player’s Intelligence</strong><br />
+            Games should challenge players to think, notice, and experiment without obscuring logic or relying on guesswork.
+            Systems are designed to be readable, learnable, and fair—clarity is part of the challenge, not a concession.
+          </p>
+
+          <p><strong>2. Mechanics Carry Meaning</strong><br />
+            Every mechanic should reinforce tone, theme, or narrative intent. Whether a system is playful, tense, or emotional,
+            it exists to say something—not just to fill space or add difficulty.
+          </p>
+
+          <p><strong>3. Failure Is Information, Not Punishment</strong><br />
+            Setbacks should teach, entertain, or reframe the problem rather than frustrate or stall progress. Players are
+            encouraged to try, fail, and learn in an environment that values curiosity over perfection.
+          </p>
+
+          <p><strong>4. Character and World Come First</strong><br />
+            Worlds feel lived-in, characters feel intentional, and humor or emotion emerges naturally from context. Even
+            abstract or mechanical games are grounded in a sense of place, personality, or purpose.
+          </p>
+
+          <p><strong>5. Every Project Earns Its Form</strong><br />
+            No genre, tone, or structure is treated as a default. Each game chooses the mechanics, presentation, and scope
+            that best serve its core idea—allowing the studio to explore different styles while maintaining a consistent design ethos.
+          </p>
+
+          <p><strong>Bold ideas, thoughtful design, and games that never waste the player’s time.</strong></p>
+        </details>
+      </section>
+
+      <footer>
+        <p>© <span id="year"></span> Angry Beard Games</p>
+        <p>
+          Contact: <a href="mailto:hello@angrybeardgames.net">hello@angrybeardgames.net</a>
+        </p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
